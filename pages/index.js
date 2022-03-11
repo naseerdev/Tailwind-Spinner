@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-<div className="container min-h-screen bg-white m-auto max-w-4xl items-center grid p-3">
+<div className="container min-h-screen bg-white m-auto items-center grid p-3 bg-hero-pattern object-cover relative before:absolute before:h-full before:w-full before:bg-[#fffbfbe6]">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-5">
             <div className=" container space-y-10 relative">
                 <h1 className="mb-8 text-xl font-semibold">
